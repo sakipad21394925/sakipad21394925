@@ -1,13 +1,26 @@
+@font-face{
+	font-family: meiryo;
+	src:url(/font/meiryo.ttc) format('truetype');
+}
+
+@font-face{
+	font-family: yugthic;
+	src:url(/font/YuGothM.ttc) format('truetype');
+}
+
 .homepage {
 	font-size: 2vw;
+	font-family: yugothic;
 }
 
 .maintext {
 	font-size: 2vw;
+	font-family: meiryo;
 }
 
 .homeh2 {
-  font-size: 1.5vw
+  font-size: 1.5vw;
+	font-family: yugothic;
 }
 
 .video {
@@ -42,7 +55,7 @@ ol {
 
 @font-face{
   font-family: hgpgyousho;
-  src:url(sakipad21394925/sakipad21394925/HGRGY.TTC) format('truetype');
+  src:url(/font/HGRGY.TTC) format('truetype');
 }
 
 .watext{
