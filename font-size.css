@@ -1,13 +1,3 @@
-@font-face{
-	font-family: meiryo;
-	src:url(/font/meiryo.ttc) format('truetype');
-}
-
-@font-face{
-	font-family: yugthic;
-	src:url(/font/YuGothM.ttc) format('truetype');
-}
-
 .homepage {
 	font-size: 2vw;
 	font-family: yugothic;
