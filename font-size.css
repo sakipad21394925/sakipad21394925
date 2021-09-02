@@ -39,3 +39,12 @@ article {
 ol {
   position: sticky;
 }
+
+@font-face{
+  font-family: hgpgyousho;
+  src:url(HGRGY.TTC) format('truetype');
+}
+
+.watext{
+  font-family: hgpgyousho;
+}
