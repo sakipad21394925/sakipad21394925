@@ -1,16 +1,17 @@
 .homepage {
 	font-size: 2vw;
-	font-family: yugothic;
 }
 
 .maintext {
 	font-size: 2vw;
-	font-family: meiryo;
 }
 
 .homeh2 {
-  font-size: 1.5vw;
-	font-family: yugothic;
+  font-size: 1.5vw
+}
+
+.subtext {
+  font-size: 1.2vw
 }
 
 .video {
@@ -43,6 +44,19 @@ ol {
   position: sticky;
 }
 
+.shadow{
+  box-shadow: 0px 0px 3px gray;
+  width: 10%
+}
+
+.textbox{
+  width: 40%
+}
+
+.inbox{
+  width: 20%
+}
+
 @font-face{
   font-family: hgpgyousho;
   src:url(HGRGY.TTC) format('truetype');
@@ -50,5 +64,13 @@ ol {
 
 .watext{
   font-family: hgpgyousho;
-	font-size: 2vw;
+}
+
+@font-face{
+  font-family: メイリオ;
+  src:url(meiryo.ttc) format('truetype');
+}
+
+.meiryo{
+  font-family: メイリオ;
 }
